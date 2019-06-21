@@ -1,0 +1,307 @@
+
+/* Setting up the page */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin 0;
+    
+        
+}
+
+html {
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+
+
+
+/* HEADER */
+
+header {
+    height: 105vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-image: url(grid%20splatter.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#header-name {
+    font-family: 'Glass Antiqua', cursive;
+    font-weight: 100;
+    font-size: 200%;
+    margin-left: 780px;
+    text-transform: none;
+    color: #000;
+    border: none;
+    width: 100%;
+}
+
+#header-slogan {
+    font-weight: 200;
+    font-size: 150%;
+    margin-top: 50px;
+    margin-left: 60px;
+    text-align: left;
+    text-transform: none;
+    color: #000;
+    border: none;
+    width: 100%;
+}
+
+.headshot img{
+    image-orientation: 90deg;
+    border-radius: 10%;
+    height: 300px; 
+    margin-top: 80px;
+    margin-left: 170px;
+    border-bottom: solid 3px #6d6a6a;
+}
+
+/* REUSEABLE COMPONENTS */
+
+h1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    width: 300;
+    text-transform: lowercase;  
+    color: #000;
+    border-bottom: dashed 5px #000; 
+    margin-top: 0;
+    padding-top: 5px
+}
+
+h3{
+    padding-left: 15px;
+}
+
+
+
+/*------------MAIN NAVIGATION -------------*/
+
+.main-nav {
+    list-style: none;
+    text-decoration: none;
+    padding-top: 15px;
+    margin-left: 10px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    text-decoration: none;
+    color: #ce23ce;
+    text-transform: lowercase;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    padding-bottom: 3px;
+    border-bottom: solid 2px rgba(0, 245, 255, 0.76);
+    color: #000;
+}
+
+
+/*SECTION WHO*/
+
+.section-who{
+    height: 106vh;
+    background-color: #e8e8e8;
+    background-image: url(create.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.who-box{
+    margin-left: 40px;
+    width: 85%;
+}
+
+.content-who{
+    margin-top: 20px;
+    background-color: rgba(44, 44, 44, 0.74);
+    border-radius: 5px;
+    border-bottom: solid 3px #2f2f2f;
+}
+
+.content-who p{
+    margin-left: 40px;
+    margin-right: 20px;
+    color: #fff;
+}
+.image-who{
+    text-align: right;
+}
+
+.image-who a img:hover,
+.image-who a img:active{
+    width: 300px;
+    opacity: 1;
+    transition: .5s;
+}
+
+.image-who img{
+    width: 250px;
+    margin-left: 250px;
+    margin-top: 0px;
+    opacity: .8;
+}
+
+/*WHAT I DO SECTION*/
+
+.section-what {
+    height: 106vh;
+    background-image: url(what%20backgound.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
+
+.about-what{
+    width: 500px;
+    height: 70vh;
+    background-color: rgba(232, 232, 232, 0.79);
+    border-radius: 5px;
+    border-bottom: solid 3px #333333;
+    margin-left: 90px;
+}
+
+.content-what{
+    padding: 0 15px;
+}
+
+.experience-what{
+    width: 300px;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.71);
+    border-radius: 5px;
+    float: left;
+    border-bottom: solid 3px #2a2a2a;
+    color: #fff;
+}
+
+.content-what li{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.web-dev-what{
+    width: 300px;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.71);
+    border-radius: 5px;
+    border-bottom: solid 3px #2a2a2a;
+    color: #fff;
+}
+
+.learning-what{
+    width: 622px;
+    height: 36vh;
+    border-radius: 5px;
+    border: solid 3px rgba(7, 11, 90, 0.13);
+    background-color: rgba(0, 7, 88, 0.68);
+    color: #fff;
+}
+
+
+/*WHY I DO IT SECTION*/
+
+.section-why{
+    height: 106vh;
+    margin-top: 0;
+    padding-top: 0; 
+    background-image: url(why%20background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.top-box-why{
+    height: 80vh;
+    background-color: rgba(232, 232, 232, 0.26);
+}
+
+.quote-box-why{
+    width: 40%;
+    margin-left: 60px;
+    margin-top: -370px;
+}
+
+#quote-one{
+    margin-left: 50px;
+    margin-right: 200px;
+    padding: 10px;
+    border: solid 1px rgba(216, 216, 216, 0.33);
+    border-radius: 15px;
+    border-bottom: solid 3px rgba(255, 255, 255, 0.12);
+}
+
+#quote-two{
+    margin-left: 200px;
+    margin-right: 90px;
+    margin-top: 80px; 
+    padding: 10px;
+    border: solid 1px rgba(216, 216, 216, 0.33);
+    border-radius: 15px;
+    border-bottom: solid 3px rgba(255, 255, 255, 0.12);
+}
+
+#quote-three{
+    margin-right: 150px;
+    margin-top: 50px;
+    padding: 10px;
+    border: solid 1px rgba(216, 216, 216, 0.33);
+    border-radius: 15px;
+    border-bottom: solid 3px rgba(255, 255, 255, 0.06);
+}
+
+.quote-why,
+.content-why{
+    padding: 2px 15px;
+}
+
+.content-box-why{
+    width: 38%;
+    height: 320px;
+    float: right;
+    margin-top: -250px;
+    margin-right: 100px;
+    border: solid 2px #969696;
+    border-bottom: solid 3px rgba(62, 62, 62, 0.25);
+    border-radius: 10px;
+    background-color: rgba(232, 232, 232, 0.36); 
+}
+
+.bottom-box-why{
+    height: 26vh;   
+    background-color: rgba(44, 44, 44, 0.74);
+}
+
+/*FUTURE GOALS SECTION*/
+
+.section-future{
+    height: 106vh;
+    background-image: url(future%20background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 0;
+}
+
+.future-container{
+    height: 106vh;
+    background-color: rgba(224, 7, 7, 0.25);
+    width: 100%;
+}
