@@ -1,0 +1,162 @@
+/* Media Quereies for iPhone X*/
+@media only screen and (max-width: 812px) {
+    *{
+        width: 160%;
+        font-size: 125%;
+    }
+    
+    h1{
+        margin-left: 600px;
+        font-size: 295%;
+    }
+    
+    /*HEADER SECTION*/
+    
+    header{
+        background-size: contain;
+        background-position: right;
+        background-attachment: scroll;
+        height: 250vh;
+    }
+   
+    .headshot {
+        margin-left: 21%;
+    }
+    
+    .headshot img{
+        width: 20%;
+        height: auto;
+    }
+    
+    #header-slogan{
+        font-size: 265%;
+        margin-left: 18px;
+    }
+    
+    #header-name{
+        margin-left: 300px;
+        font-size: 390%;
+    }
+    
+    /*WHO I DO SECTION*/
+    
+    .section-who{
+        background-size:contain;
+        background-attachment: scroll;
+        height: 520vh;
+    }
+    
+    .who-box{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .who-box p{
+        width: 90%;
+        margin-left: 65px;
+        font-size: 150%;
+    }
+    
+    .image-who{
+        text-align: left;
+        margin-left: 120px;
+    }
+    
+    .image-who img{
+        width: 450px;
+    }
+    
+    .image-who a img:hover,
+    .image-who a img:active{
+        width: 520px;
+    }
+    
+    /*WHAT I DO SECTION*/
+    
+    .section-what{
+        height: 400vh;
+        background-position: right;
+    }
+    
+    .about-what{
+        width: 86%;
+    }
+    
+    .content-what{
+        width: 100%;
+        padding: 5px;
+    }
+    
+    .about-what p{
+        font-size: 150%;
+    }
+    
+    .web-dev-what{
+        width: 45%;
+        height: 700px;
+        margin-left: 90px;
+    }
+    
+    .content-what li{
+        margin-left: 50px;
+        padding-top: 10px;
+    }
+    
+    .experience-what{
+        width: 45%;
+        height: 700px;
+    }
+    
+    .experience-what li{
+        width: 90%;
+    }
+    
+    .learning-what{
+        width: 90%;
+        margin-left: 90px;
+        height: 770px;
+        font-size: 150%;
+    }
+    
+    /*WHY I DO IT SECTION*/
+    
+    .section-why{
+        height: 380vh;
+        background-position: bottom;
+    }
+    
+    .top-box-why{
+        height: 200vh;
+    }
+    
+    .quote-box-why{
+        margin-top: -1300px;
+        width: 30%;
+        font-size: 160%;
+    }
+    
+    .content-box-why{
+        margin-top: 50px;
+        width: 80%;
+        height: 1000px;
+    }
+    
+    .content-box-why p{
+        width: 60%;
+        font-size: 150%;
+    }
+    
+    .bottom-box-why{
+        height: 181vh;
+    }
+    
+    
+    /*FUTURE GOALS SECTION*/
+    
+    .section-future{
+        height: 200vh;
+        background-attachment: scroll;
+        background-position: right;
+        
+    }
+}
