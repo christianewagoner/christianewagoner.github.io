@@ -1,0 +1,87 @@
+/* Media Quereies from 0 to 320px*/
+@media only screen and (max-width: 320px) {
+    
+    /*HEADER SECTION*/
+    
+    header{
+        background-size: contain;
+    }
+    
+    #header-slogan{
+        font-size: 80%;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+    #header-name{
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    
+    .main-nav li{
+        display: block;
+        font-size: 80%;
+    }
+    
+    .main-nav li a:hover,
+    .main-nav li a:active{
+        border-bottom: none;
+    }
+    
+    .headshot{
+        text-align: center;
+    }
+    
+    .headshot img{
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    /*WHO I AM SECTION*/
+    
+    .section-who{
+        background-size: contain;
+        height: 230vh;
+    }
+    
+    .who-box{
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .content-who{
+            background-color: rgba(44, 44, 44, 0.65);
+    }
+    
+    .content-who p{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    
+    .image-who{
+        text-align: center;
+    }
+    
+    .image-who img{
+        margin: 10px 0px;
+    }
+    
+    /*WHAT I DO SECTION*/
+    
+    .section-what{
+        background-position:right;
+        height: 220vh;
+    }
+    
+    .about-what{
+        width: 100%;
+        margin: 0;
+    }
+    
+    .learning-what{
+        width: 100%;
+        height: 400px;
+    }
+}
+
