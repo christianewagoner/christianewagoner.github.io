@@ -15,6 +15,7 @@
     header{
         background-size: contain;
         background-position: right;
+        background-attachment: scroll;
         height: 250vh;
     }
    
@@ -68,5 +69,94 @@
     .image-who a img:hover,
     .image-who a img:active{
         width: 520px;
+    }
+    
+    /*WHAT I DO SECTION*/
+    
+    .section-what{
+        height: 400vh;
+        background-position: right;
+    }
+    
+    .about-what{
+        width: 86%;
+    }
+    
+    .content-what{
+        width: 100%;
+        padding: 5px;
+    }
+    
+    .about-what p{
+        font-size: 150%;
+    }
+    
+    .web-dev-what{
+        width: 45%;
+        height: 700px;
+        margin-left: 90px;
+    }
+    
+    .content-what li{
+        margin-left: 50px;
+        padding-top: 10px;
+    }
+    
+    .experience-what{
+        width: 45%;
+        height: 700px;
+    }
+    
+    .experience-what li{
+        width: 90%;
+    }
+    
+    .learning-what{
+        width: 90%;
+        margin-left: 90px;
+        height: 770px;
+        font-size: 150%;
+    }
+    
+    /*WHY I DO IT SECTION*/
+    
+    .section-why{
+        height: 380vh;
+        background-position: bottom;
+    }
+    
+    .top-box-why{
+        height: 200vh;
+    }
+    
+    .quote-box-why{
+        margin-top: -1300px;
+        width: 30%;
+        font-size: 160%;
+    }
+    
+    .content-box-why{
+        margin-top: 50px;
+        width: 80%;
+        height: 1000px;
+    }
+    
+    .content-box-why p{
+        width: 60%;
+        font-size: 150%;
+    }
+    
+    .bottom-box-why{
+        height: 181vh;
+    }
+    
+    
+    /*FUTURE GOALS SECTION*/
+    
+    .section-future{
+        height: 200vh;
+        background-attachment: scroll;
+        background-position: right;
+        
     }
 }
