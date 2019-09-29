@@ -1,0 +1,97 @@
+@media only screen and (max-width: 1084px) {
+    h2,
+    h3{
+        margin-left: 50px;
+    }
+    
+    .about-us{
+        height: 170vh;
+    }
+   
+    .about-content-one{
+        margin-left: 100px;
+    }
+    
+    .about-content-two{
+        margin-left: 400px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .content{
+        margin-top: 2px;
+    }
+    
+    .products{
+        height: 680vh;
+    }
+    
+    #other{
+        margin-left: 50px;
+        width: 450px;
+    }
+    
+    #custom{
+        width: 450px;   
+    }
+}
+
+
+/*------- MEDIA MAX WIDTH 1016PX ----------*/
+
+@media only screen and (max-width: 1016px) {
+    
+    #other{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+
+
+/*------- MEDIA MAX WIDTH 966PX ----------*/
+
+
+@media only screen and (max-width: 966px){
+    #custom{
+        margin-left: 20px;;
+    }
+}
+
+/*------- MEDIA MAX WIDTH 936PX ----------*/
+@media only screen and (max-width: 936px){
+    
+    
+    .about-content-one,{
+        margin-left: 50%;
+    }
+    
+    .about-content-two{
+        margin-left: 100px;
+    }
+    
+    .products{
+        height: 720vh;
+    }
+    
+    .product-item{
+        margin-left: 10px;
+    }
+    
+    #other,
+    #custom{
+        margin-left: 150px;
+    }
+        
+    }
+
+@media only screen and (max-width: 696px){
+    #home{
+        margin-left: 10px;
+    }
+    
+    .main-nav li{
+        margin: 5px;;
+    }
+}
